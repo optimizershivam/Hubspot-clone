@@ -1,0 +1,43 @@
+/* Demopage Footer */
+
+.demopagefooter{
+    border: 1px solid rgb(45,62,80);
+    height: 300px;
+    width: 100%;
+    background-color: rgb(45,62,80);
+  }
+  
+  .demopagefooterheading{
+    color: white;
+  }
+  
+  .demopagefooterdiv{
+    /* border: 1px solid red; */
+    height: 100px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .demopagefooterlinkdiv{
+    /* border: 1px solid blue; */
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .legalstuff{
+    /* border: 1px solid gray; */
+    height: 80px;
+    width: 200px;
+    margin-left: 550px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .legalstuff2{
+    /* border: 1px solid gray; */
+    height: 80px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+  }
