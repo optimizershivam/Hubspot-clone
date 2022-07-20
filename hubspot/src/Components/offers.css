@@ -1,0 +1,20 @@
+.BigOfferDiv{
+    border: 1px solid rgb(212, 212, 212);
+    margin: 15px 120px 15px 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.BigOfferDiv>div{
+    border-left: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+   
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
