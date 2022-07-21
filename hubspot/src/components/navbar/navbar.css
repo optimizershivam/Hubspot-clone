@@ -1,0 +1,42 @@
+.navbar_main_div{
+    width:100%;
+    border: 1px solid black;
+    height: 65px;
+    display: flex;
+}
+
+.navbar_options_div{
+    display: flex;
+    /* border: 1px solid black; */
+    width:28%;
+    margin-top: 20px;
+}
+.navbar_options_div>div{
+    margin-right: 11%;
+    font-size: 18px;
+}
+.navbar_hub_logo_div{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-right: 5%;
+}
+.navbar_btn_div{
+    width:200px;
+    height: 25%;
+    text-align: center;
+    margin-left: 23%;
+    border-radius: 4px;
+    background-color: #ff5c35;
+   
+    /* font-weight: bold; */
+   padding-bottom: 12px;
+   padding-top: 5px;
+    margin-top: 20px;
+    /* padding: 7px; */
+    /* border: 1px solid black; */
+
+}
+.navbar_btn_link{
+    color: white;
+    text-decoration: none;
+}

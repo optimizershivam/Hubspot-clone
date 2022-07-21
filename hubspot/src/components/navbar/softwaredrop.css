@@ -1,0 +1,106 @@
+.softwareDrop_main-div{
+    width:80%;
+    height: 600px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: auto;
+    margin-top: 0;
+}
+.softwareDrop_main-div.click{
+    display: none;
+}
+.softwaredroptopdiv{
+    width:100%;
+    height: 82%;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #f5f8fa;
+}
+.softDropDiv1{
+    margin: auto;
+    width:250px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.softwaredroptopdiv>p{
+    text-align: center;
+}
+.softDropDiv2{
+    display: flex;
+    /* border: 1px solid black; */
+    width:50%;
+    margin: auto;
+    justify-content: space-between
+}
+.softDropDiv2>div{
+    width:42%;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: #00b0b0;
+    /* border: 1px solid black; */
+}
+.softdropdiv2link{
+    color: #00b0b0;
+    text-decoration: none;
+}
+.softdropdiv2link:hover{
+    text-decoration: underline;
+}
+
+.software_hub{
+    width:85%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,31%);
+    grid-gap: 2%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+/* ************************************softwarebottomdiv****************************************** */
+
+.softwareBottomDiv{
+    width:100%;
+    height: 100px;
+    /* border:1px solid black; */
+    background-color: white;
+    text-align: center;
+}
+
+/* *****************************************softwareSmall********************************************** */
+
+.softwareSmall_div{
+    /* border: 1px solid black; */
+    /* width:280px;
+    height: 120px; */
+    display: flex;
+    padding: 15px;
+    background-color: white;
+}
+.softwareiconhub{
+    color: #fc5a34;
+    font-size: 30px;
+   
+}
+.HubIconDiv{
+    margin-top: 8%;
+    margin-right: 3%;
+    
+}
+.softwareHublink{
+   color: #00bda5;
+   font-weight: bold;
+}
+.HubIconDiv{
+    color: #fc5a34;
+    font-size: 23px;
+   
+   
+}
+.softHubLinks{
+    text-decoration: none;
+    color: black;
+}
