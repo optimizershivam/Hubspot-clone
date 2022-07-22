@@ -1,0 +1,125 @@
+.demoformmain{
+    background-color: rgb(87,102,116);
+    border: 1px solid rgb(87,102,116);
+}
+
+.demoform{
+    /* border: 1px solid red; */
+    height: 900px;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.demoformheading{
+    border: 1px solid white;
+    height: 120px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.demoheading{
+    background-color: white;
+    font-size: 28px;
+}
+
+.formdetails{
+    /* border: 1px solid blue; */
+    height: 520px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.formdetailsleft{
+    /* border: 1px solid green; */
+    height: 400px;
+    width: 45%;
+    margin-left: 20px;
+}
+.formdetailsright{
+    /* border: 1px solid green; */
+    height: 400px;
+    width: 45%;
+    margin-left: 10px;
+}
+
+.formdetailstop{
+    /* border: 1px solid red; */
+    height: 400px;
+    display: flex;
+}
+
+.namediv{
+    /* border: 1px solid green; */
+    height: 110px;
+}
+
+.texttag{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.inputtag{
+    height: 35px;
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.demopagemiddlediv{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.demopagebottomdiv{
+    /* border: 1px solid blue; */
+    height: 130px;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+.getfreedemodiv{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.btnform{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    height: 45px;
+    border-radius: 3px;
+    width: 180px;
+    color: white;
+    background-color: rgb(255,92,53);
+  }
+  
+  .btnform:hover{
+    background-color: rgb(248, 186, 170);
+    cursor: pointer;
+  }
+
+  .fieldreq{
+    color: red;
+    font-weight: bold;
+  }
+
+  .linkfont{
+    color: white;
+    text-decoration: none;
+  }
