@@ -1,0 +1,57 @@
+.crmplatform_main_div{
+    width:100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    background-color: #f5f8fa;
+    padding-top: 20px;
+}
+.crmplatform_main_div>h1{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  
+}
+.crmplatform_main_div>div>p{
+    width:60%;
+    margin: auto;
+    font-weight: 14px;
+    color: #0e1011;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+.GetFreeCrm{
+    width:21%;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+
+}
+.GetFree1{
+    width:120px;
+    height:100% ;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff5c35;
+}
+
+.GetFree2{
+    width:150px;
+    height:100% ;
+    padding-bottom: 10px;
+    color: #ff5c35;
+    font-size: 13px;
+    border-radius: 3px;
+    
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ff5c35 ;
+}

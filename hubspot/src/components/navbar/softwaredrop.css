@@ -1,0 +1,121 @@
+.softwareDrop_main-div{
+    width:80%;
+    height: 600px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;    margin: auto;
+  
+    margin-left: 10%;
+    background-color: #f5f8fa;
+    
+    position: absolute;
+    /* margin-top:115px ; */
+    z-index: 1;
+}
+.icon_logo_1{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.softwareDrop_main-div.click{
+   
+    display: none;
+  
+}
+.softwaredroptopdiv{
+    width:100%;
+    height: 82%;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    background-color: #f5f8fa;
+}
+.soft_Drop_Div1{
+    margin: auto;
+    width:250px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.softwaredroptopdiv>p{
+    text-align: center;
+}
+.soft_Drop_Div_2{
+    display: flex;
+    /* border: 1px solid black; */
+    width:50%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between
+}
+.soft_Drop_Div_2>div{
+    width:42%;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: #00b0b0;
+    /* border: 1px solid black; */
+}
+.softdropdiv2link{
+    color: #00b0b0;
+    text-decoration: none;
+    display: flex;
+    /* text-align: center; */
+    
+}
+.softdropdiv2link:hover{
+    text-decoration: underline;
+}
+
+.software_hub{
+    width:85%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,31%);
+    grid-gap: 2%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+/* ************************************softwarebottomdiv****************************************** */
+
+.softwareBottomDiv{
+    width:100%;
+    height: 100px;
+    /* border:1px solid black; */
+    background-color: white;
+    text-align: center;
+}
+
+/* *****************************************softwareSmall********************************************** */
+
+.software_Small_div{
+    /* border: 1px solid black; */
+    /* width:280px;
+    height: 120px; */
+    display: flex;
+    padding: 15px;
+    background-color: white;
+}
+.softwareiconhub{
+    color: #fc5a34;
+    font-size: 30px;
+   
+}
+.Hub_Icon_Div{
+    margin-top: 4%;
+    margin-right: 3%;
+    color: #fc5a34;
+    font-size: 23px;
+    
+}
+.softwareHublink{
+   color: #00bda5;
+   font-weight: bold;
+   display: flex;
+}
+
+.softHubLinks{
+    text-decoration: none;
+    color: black;
+}
