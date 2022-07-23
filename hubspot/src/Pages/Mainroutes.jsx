@@ -2,7 +2,6 @@ import { Stack } from '@chakra-ui/react'
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
 import RequireAuth from '../hoc/RequireAuth'
-import Dummypage from './Dummypage'
 import Forgetpage from './Forgetpage'
 import Loginpage from './Loginpage'
 import Register from './Register'
