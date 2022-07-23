@@ -4,6 +4,7 @@ import {education,WhyHubspot,Services,UserResources} from "./resource";
 import {HiUserGroup} from "react-icons/hi";
 import {RiMessageFill} from "react-icons/ri";
 import {MdDesignServices} from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,7 +20,7 @@ const ResourcesDrop = () => {
             <div>
               <h2 style={{fontWeight:"bold",fontSize:"22px"}}>Education</h2>
               {education.map((e)=>(
-                <div className='resourcesSubName'>{e}</div>
+                <Link to={"/courses"}>   <div className='resourcesSubName'>{e}</div></Link>
               ))}
               </div>
           </div>
@@ -29,7 +30,7 @@ const ResourcesDrop = () => {
             <div>
               <h3 style={{fontWeight:"bold",fontSize:"22px"}} >Why HubSpot ?</h3>
               {WhyHubspot.map((e)=>(
-                <div className='resourcesSubName'>{e}</div>
+              <div className='resourcesSubName'>{e}</div>
               ))}
               </div>
           </div>

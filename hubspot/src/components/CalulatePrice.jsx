@@ -2,6 +2,7 @@ import React from 'react'
 import {Accordion, AccordionButton, AccordionItem, AccordionPanel, Box,Button,Checkbox,Image, Input, Slider, SliderFilledTrack, SliderThumb, SliderTrack} from '@chakra-ui/react'
 import {AddIcon, ExternalLinkIcon, MinusIcon} from '@chakra-ui/icons'
 import './Calculate.css'
+import { Link } from 'react-router-dom'
 const CalulatePrice = () => {
   return (
    <>
@@ -165,7 +166,9 @@ const CalulatePrice = () => {
             <p style={{fontWeight:'400',fontSize:'14px',color:'#33475b',lineHeight:'24px'}}>$45 per month | 1,000 contacts</p>
           </div>
         <div style={{width:'99%',borderTop:'2px solid rgb(223,227,235)',marginBottom:'15px'}}></div>
-        <Button width='100%' height='50px' colorScheme='orange' marginBottom='15px'>Buy Now</Button>
+        <Button width='100%' height='50px' colorScheme='orange' marginBottom='15px'>
+          <Link to="/cart">
+          Buy Now </Link></Button>
         <p style={{fontWeight:'600',fontSize:'14px',color:'#0091ae',lineHeight:'24px',textAlign:'center',marginBottom:'20px'}}>View price breakdown</p>
         <p style={{fontWeight:'600',fontSize:'14px',color:'#0091ae',lineHeight:'24px',textAlign:'center',marginBottom:'20px'}}><ExternalLinkIcon/> <span style={{marginLeft:'5px'}}>Share this price</span></p>
       </div>

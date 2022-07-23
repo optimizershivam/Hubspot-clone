@@ -17,10 +17,10 @@ const Navbar1 = () => {
       
         <div><RiAccountCircleFill className='navbar1_main_icons'/>
         </div>
-        <div> <span>Contact Sales</span></div>
+        <div> <Link to="/contactsales"><span>Contact Sales</span></Link></div>
       <div><AiOutlineSearch className='navbar1_main_icons'/></div>
-      <div><Link to="/" className='navbar1_main_links'>Log in</Link></div>
-      <div><Link to="/" className='navbar1_main_links'>Customer Support</Link></div>
+      <div><Link to="/login" className='navbar1_main_links'>Log in</Link></div>
+      <div><Link to="/cssupport" className='navbar1_main_links'>Customer Support</Link></div>
       <div className='navbar1_langauge'><span>About</span><MdOutlineKeyboardArrowDown/></div>
     </div>
   )

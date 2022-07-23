@@ -14,7 +14,7 @@ const Banner = () => {
         <br/>
         <p>Finally, a CRM platform that’s both powerful and easy to use. Create delightful customer experiences. Have a delightful time doing it.</p>
         <div className='banner_button_div'>
-            <Link to="/" className='banner_buuton_link'>
+            <Link to="/demopage" className='banner_buuton_link'>
                 Start free or get a Demo
             </Link>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './confirmationPage.css'
 import {Button, Center, Checkbox, Divider, Input, Slider, SliderFilledTrack, SliderThumb, SliderTrack} from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 const ConfirmayionPage = () => {
   return (
     <>
@@ -48,7 +49,7 @@ const ConfirmayionPage = () => {
         <p className='confirmAlltext' style={{marginTop:'6px'}}>I understand how contact overages work and that I will need to set contacts I wish to market to as marketing contacts</p>
         </div>
         </div>
-       <div style={{textAlign:'center', margin:'auto',marginTop:'20px',marginBottom:'50px'}}><Button  colorScheme='orange' borderRadius='3px'>Continue</Button></div>
+       <div style={{textAlign:'center', margin:'auto',marginTop:'20px',marginBottom:'50px'}}><Button  colorScheme='orange' borderRadius='3px'><Link to="/payment">Continue</Link></Button></div>
     </>
   )
 }
