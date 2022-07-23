@@ -1,0 +1,50 @@
+.navbar_main_div{
+    width:100%;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;    margin: auto; */
+    height: 65px;
+    display: flex;
+    position: fixed;
+   top:50px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.navbar_options_div{
+    display: flex;
+    /* border: 1px solid black; */
+    width:28%;
+    margin-top: 20px;
+}
+.navbar_options_div>div{
+    margin-right: 11%;
+    font-size: 18px;
+}
+.navbar_hub_logo_div{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-right: 5%;
+}
+.navbar_btn_div_main{
+    width:200px;
+    height: 40%;
+    text-align: center;
+    margin-left: 23%;
+    border-radius: 4px;
+    background-color: #ff5c35;
+   
+    /* font-weight: bold; */
+   padding-bottom: 12px;
+   padding-top: 5px;
+    margin-top: 20px;
+    /* padding: 7px; */
+    /* border: 1px solid black; */
+
+}
+.navbar_btn_link{
+    color: white;
+    text-decoration: none;
+}
+/* .navbar_options_softwareDown{
+    position: relative;
+    display: inline-block;
+} */
