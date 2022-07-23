@@ -1,0 +1,255 @@
+.customerservicemaindiv{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.customerserviceleftdiv{
+    /* border: 1px solid black; */
+    height: 75px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.customerservicemiddlediv{
+    /* border: 1px solid black; */
+    height: 75px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.customerservicerigthdiv{
+    /* border: 1px solid green; */
+    height: 75px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.imglogo{
+    height: 30px;
+    width: 100px;
+}
+
+.customerservicemiddlepara{
+    font-size: 24px;
+}
+
+.customerservicerigthdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.customerservicesearch{
+    /* border: 1px solid red; */
+    height: 250px;
+    background-color: rgb(98,111,193);
+}
+
+.customerservicesearchheaddiv{
+    border: 1px solid rgb(98,111,193);
+    height: 80px;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.customerservicesearchhead{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.customerservicesearchinput{
+    height: 60px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.customerservicesearchinputdiv{
+    /* border: 1px solid green; */
+    height: 60px;
+    width: 60%;
+    margin: auto;
+}
+
+.hubspotmaindiv{
+    /* border: 1px solid blue; */
+    height: 550px;
+    margin-top: 50px;
+}
+
+.hubspotmaintopdiv{
+    /* border: 1px solid blue; */
+    height: 230px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.hubspotmainbottomdiv{
+    /* border: 1px solid blue; */
+    height: 230px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.hubspotmaintopinnerdiv{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 100%;
+    width: 30%;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.hubspotmaintopinnerdiv:hover{
+    cursor: pointer;
+    border: 2px solid rgb(98,111,193);
+}
+
+.hubspotmaintopinnerheaddiv{
+    /* border: 1px solid green; */
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.hubspotmaintopinnerimgdiv{
+    /* border: 1px solid green; */
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.hubspotmaintopinnerparadiv{
+    /* border: 1px solid green; */
+    height: 65px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hubspotmaintopinnerhead{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.hubspotmaintopinnerpara{
+    font-size: 14px;
+}
+
+.hubspotmaintopinnerimg{
+    height: 75px;
+    width: 75px;
+    margin-top: 25px;
+}
+
+.customerservicebottomdiv{
+    /* border: 1px solid red; */
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customerservicebottominnerdiv{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 25%;
+}
+
+.customerservicebottominnerlogodiv{
+    /* border: 1px solid blue; */
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.customerservicebottominnerheaddiv{
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.customerservicebottominnerbtndiv{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.customerservicebottominnerhead{
+    font-weight: bold;
+    text-align: center;
+}
+
+.customerservicebottominnerbtn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(45,62,80);
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+.customerservicebottominnerbtn:hover{
+    background-color:rgb(125, 149, 175) ;
+}
+
+.demopagefooter{
+    border: 1px solid rgb(45,62,80);
+    height: 300px;
+    width: 100%;
+    background-color: rgb(45,62,80);
+  }
+  
+  .demopagefooterheading{
+    color: white;
+  }
+  
+  .demopagefooterdiv{
+    /* border: 1px solid red; */
+    height: 100px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .demopagefooterlinkdiv{
+    /* border: 1px solid blue; */
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .legalstuff{
+    /* border: 1px solid gray; */
+    height: 80px;
+    width: 200px;
+    margin-left: 550px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .legalstuff2{
+    /* border: 1px solid gray; */
+    height: 80px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+  }
