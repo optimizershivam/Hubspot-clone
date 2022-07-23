@@ -1,0 +1,169 @@
+/* demomiddlepage css */
+
+.demomiddlepage{
+    height: 500px;
+  }
+  
+  .middlepagediv{
+    /* border: 1px solid red; */
+    height: 350px;
+    margin-top: 100px;
+    display: flex;
+  }
+  
+  .demomiddleleftpage{
+    /* border: 1px solid blue; */
+    height: 350px;
+    width: 18%;
+    margin-left: 100px;
+  }
+  
+  .demomiddlerightpage{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 350px;
+    width: 65%;
+    margin-left: 30px;
+    display: flex;
+  }
+  
+  .demomiddlepagebtn{
+    height: 40px;
+    width: 240px;
+    text-align: left;
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .demomiddlepagebtn:hover{
+    background-color: rgb(239, 239, 250);;
+    cursor: pointer;
+  }
+  
+  .demomiddlepagepara{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .demomiddlerightpage1{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 49%;
+  }
+  
+  .demomiddlerightpage2{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 49%;
+    margin-left: 8px;
+  }
+  
+  .demomiddlerightpageheading{
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .demomiddlerightpageheadinglogo{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 80px;
+    margin-left: 50px;
+  }
+  
+  .demomiddlerightpagehead{
+    /* border: 1px solid grey; */
+    height: 100%;
+    width: 250px;
+    margin-left: 10px;
+  }
+  
+  .demomiddlerightpageheadinglogoimg{
+    height: 60px;
+    width: 60px;
+  }
+  
+  .demomiddlerightpagepara{
+    /* border: 1px solid cadetblue; */
+    height: 200px;
+    width: 80%;
+    margin-top: 10px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .demomiddlerightpagebutton{
+    background-color: rgb(255,92,53);
+    height: 50px;
+    width: 230px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  .demomiddlerightpagebutton:hover{
+    background-color: rgb(248, 186, 170);
+    cursor: pointer;
+  }
+  
+  .demomiddlerightpage2head{
+    /* border: 1px solid green; */
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 65px;
+    text-align: left;
+  }
+  
+  .demomiddlerightpage2headpara{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .demomiddlerightpage2features{
+    /* border: 1px solid green; */
+    height: 220px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .demomiddlerightpage2featuresleft{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+  }
+  
+  .tickcolor{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .demomiddlerightpage2featureslefttop{
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  
+  .featureslist{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .tickcolor1{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .linkfont{
+    color: white;
+    text-decoration: none;
+  }

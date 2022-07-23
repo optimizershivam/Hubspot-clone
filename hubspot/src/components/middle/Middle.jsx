@@ -26,8 +26,10 @@ function Middle() {
    
    
   <div className='home-community-board__grid-item'>
-    <div className='home-community-board__grid-icon-wrapper'>
-    <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg"/>
+    <div className='home-community-board__grid-icon-wrapper' id="home-community-board__grid-icon-wrapper1">
+    <img 
+    data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg"
+    />
 
     </div>
     <div className='home-community-board__grid-stat-wrapper'>
@@ -39,7 +41,7 @@ function Middle() {
 
 
    <div className='home-community-board__grid-item'>
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper2">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg" alt="HubSpot Blogs" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg"/>
 
     </div>
@@ -50,7 +52,7 @@ function Middle() {
   </div> 
 
    <div className='home-community-board__grid-item'>
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper3">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg" alt="HubSpot Academy" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg"/>
     </div>
     <div className='home-community-board__grid-stat-wrapper'>
@@ -60,7 +62,7 @@ function Middle() {
   </div> 
 
    <div className='home-community-board__grid-item' id="home-community-board__grid-item70k">
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper4">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_inbound.svg" alt="Inbound" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_inbound.svg"/> 
        </div>
     <div className='home-community-board__grid-stat-wrapper'>
@@ -71,7 +73,7 @@ function Middle() {
 
 
    <div className='home-community-board__grid-item' id="home-community-board__grid-item170k">
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper5">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg" alt="" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="entered" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg"/>      </div>
     <div className='home-community-board__grid-stat-wrapper'>
         <p className='home-community-board__grid-stat stat-plus-after'>170K</p>
@@ -83,7 +85,7 @@ function Middle() {
 
 
   <div className='home-community-board__grid-item' id="home-community-board__grid-item170k">
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper6">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg" alt="" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="entered" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg"/>      </div>
     <div className='home-community-board__grid-stat-wrapper'>
         <p className='home-community-board__grid-stat stat-plus-after'>6</p>
@@ -92,7 +94,7 @@ function Middle() {
   </div> 
 
   <div className='home-community-board__grid-item' id="home-community-board__grid-item170k">
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper7">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg" alt="HubSpot Blogs" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg"/>
      </div>
     <div className='home-community-board__grid-stat-wrapper'>
@@ -102,7 +104,7 @@ function Middle() {
   </div> 
 
   <div className='home-community-board__grid-item' id="home-community-board__grid-item45m">
-    <div className='home-community-board__grid-icon-wrapper'>
+    <div className='home-community-board__grid-icon-wrapper'  id="home-community-board__grid-icon-wrapper8">
     <img data-src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="" className="home-community-board__grid-icon hsg-deferred entered hsg-deferred-loaded" data-ll-status="loaded" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg"/>
      </div>
     <div className='home-community-board__grid-stat-wrapper'>

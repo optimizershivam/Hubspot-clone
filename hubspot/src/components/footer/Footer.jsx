@@ -308,7 +308,7 @@ const Footer = () => {
   
       {/* ****************************************social connect********************************************* */}
      
-     <hr/>
+     {/* <hr/> */}
       <div className='footer_social_icons'>
       
             {socialIcons.map((e)=>(

@@ -1,0 +1,21 @@
+.navbar1Drp_main_div{
+    width:200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    height: 260px;
+    padding:20px;
+    position: absolute;
+    background-color: white;
+    /* margin-top:115px ; */
+    z-index: 1;
+   margin-left: 80%;
+   margin-top: -65px;
+}
+.navbar1Drp_main_div>div{
+    margin-bottom: 20px;
+}
+.navbar1Drp_main_div.click{
+    display: none;
+}
+.nav1drp_Link:hover{
+color: rgb(55, 164, 164);
+text-decoration: underline;
+}

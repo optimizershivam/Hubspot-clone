@@ -5,7 +5,8 @@ import RequireAuth from '../hoc/RequireAuth'
 import Dummypage from './Dummypage'
 import Forgetpage from './Forgetpage'
 import Loginpage from './Loginpage'
-import Register from './Register'
+import Register from './Register';
+import PricingPage from '../components/Pricing Page/PricingPage'
 
 import Success from './Success'
 
@@ -17,6 +18,7 @@ const Mainroutes = () => {
    <Route path='/' element={<Dummypage/>}></Route>
 
    <Route path='/success' element={<Success/>}></Route>
+   <Route path="/pricing" element={<PricingPage/>}/>
 
 <Route path='/login' element={<Loginpage/>}></Route>
 <Route path='/register' element={<Register/>}></Route>

@@ -7,7 +7,9 @@
     position: fixed;
     top:0;
 }
-
+.arrodown1{
+    margin-top: 4px;
+}
 .navbar1_main_icons{
     font-size: 20px;
     margin-left: 10px;
