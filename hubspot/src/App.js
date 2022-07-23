@@ -1,9 +1,11 @@
-import PricingPage from "./Component/Pricing Page/PricingPage";
+//import Payment from "./Components/Paymet/Payment";
 
+import PricingPage from './Components/Pricing Page/PricingPage.jsx'
 function App() {
   return (
     <>
-        <PricingPage/>
+      {/* <Payment/> */}
+      <PricingPage/>
     </>
   );
 }

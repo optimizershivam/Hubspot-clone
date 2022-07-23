@@ -1,0 +1,53 @@
+.CustomerSupport1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: 0px 50px 0px 50px;
+    justify-content: center;
+    margin: auto;
+}
+.CustomerSupport1Text{
+    margin: auto;
+    justify-content: center;
+    padding-left: 50px;
+}
+.iconsDiv{
+    display: flex;
+    gap:20px
+}
+.iconsDiv>div>p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color:#33475b
+}
+.iconsDiv>div{
+    text-align: center;
+}
+.FAQDiv{
+    width: 70%;
+    /* justify-content: center;
+    text-align: center; */
+    margin: auto;
+    margin-bottom: 100px;
+    display: grid;
+    gap: 10px;
+    margin-top: 30px;
+}
+.FAQDiv>div{
+   width: 100%;
+   border: 1px solid rgb(203, 214, 226);
+   /* padding:10px */
+}
+.FAQHeading{
+    font-weight: 600;
+    font-size: 16px;
+    color: #33475b;
+    margin-left: 10px;
+}
+.FAQAns{
+font-weight: 400;
+    font-size: 14px;
+    color: #54595f;
+    line-height: 24px;
+}

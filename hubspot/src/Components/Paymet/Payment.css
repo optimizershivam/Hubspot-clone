@@ -1,0 +1,40 @@
+*{
+    color:'#33475b'
+}
+.paymentNavImg{
+   margin: auto;
+}
+.paymentDiv{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    margin-top: 50px;
+}
+.detailDivText{
+    font-weight: 400;
+    font-size: 24px;
+    color: #33475b;
+}
+.detailsDivInfo{
+    margin-bottom: 28px!important;
+    background-color: #fef8f0;
+    border:1px solid #fae0b5;
+    color:#33475b;
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    
+}
+.cardInputDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.cardInputDiv>div>img{
+    width:34px;
+   
+}
+input{
+    backgroundColor: rgb(254, 250, 250);
+}
