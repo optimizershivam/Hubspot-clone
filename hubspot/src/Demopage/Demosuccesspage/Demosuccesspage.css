@@ -1,0 +1,116 @@
+.successtoplogo{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.successpagenavbar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.successpagebacktohomebtn{
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255,92,53);
+    border: 1px solid rgb(255,92,53);
+    border-radius: 5px;
+  }
+  
+  .successpagebacktohomebtn:hover{
+    background-color: rgb(250, 233, 228);
+    cursor: pointer;
+  }
+
+.successpagebacktohome{
+    /* border: 1px solid green; */
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.successtoplogoimg{
+    height: 30px;
+    width: 100px;
+}
+
+.successpagenav{
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(226, 223, 223);
+}
+
+.successheaddiv{
+    /* border: 1px solid blue; */
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.successhead{
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+.successparadiv{
+    /* border: 1px solid green; */
+    height: 100px;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.starteddiv{
+    /* border: 1px solid green; */
+    height: 400px;
+    margin-top: 30px;
+}
+
+.startedheadingdiv{
+    /* border: 1px solid blue; */
+    height: 80px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.startedheading{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.startedmiddlediv{
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 650px;
+    margin-left: 50px;
+}
+
+.startedmiddlepara{
+    font-size: 22px;
+}
+
+.startedbottomparadiv{
+    /* border: 1px solid violet; */
+    height: 150px;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.startedbottomdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.startedbottomimgdiv{
+    /* border: 1px solid red; */
+    height: 230px;
+    width: 450px;
+}
