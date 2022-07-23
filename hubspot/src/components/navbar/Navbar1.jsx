@@ -13,7 +13,7 @@ const Navbar1 = () => {
         <div>
         <MdOutlineLanguage className='navbar1_main_icons'/>
         </div>
-        <div> English<MdOutlineKeyboardArrowDown/></div>
+        <div className='navbar1_langauge'> English<MdOutlineKeyboardArrowDown/></div>
       
         <div><RiAccountCircleFill className='navbar1_main_icons'/>
         </div>
@@ -21,7 +21,7 @@ const Navbar1 = () => {
       <div><AiOutlineSearch className='navbar1_main_icons'/></div>
       <div><Link to="/" className='navbar1_main_links'>Log in</Link></div>
       <div><Link to="/" className='navbar1_main_links'>Customer Support</Link></div>
-      <div><span>About</span><MdOutlineKeyboardArrowDown/></div>
+      <div className='navbar1_langauge'><span>About</span><MdOutlineKeyboardArrowDown/></div>
     </div>
   )
 }

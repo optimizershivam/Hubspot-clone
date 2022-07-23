@@ -26,8 +26,9 @@
 font-size:15px ;
 }
 .banner_button_div{
-    width:200px;
-    padding: 15px;
+    width:250px;
+    text-align: center;
+    padding: 10px;
     font-weight: bold;
     margin-top: 3%;
     background-color: white;

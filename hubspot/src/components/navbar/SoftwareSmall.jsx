@@ -18,7 +18,7 @@ const SoftwareSmall = ({name,img,discribe,path,plans}) => {
         <h2>{name}</h2>
         <span>{discribe}</span>
         <br/>
-        <span className='softwareHublink'>{plans} <CgArrowLongRight/> </span>
+        <span className='softwareHublink'>{plans} <CgArrowLongRight className='icon_logo_1'/> </span>
       </div>
     </div>
   )

@@ -16,12 +16,12 @@ const SoftwareDrop = () => {
         <div className='soft_Drop_Div_2'>
             <div>
                 <Link to="/" className='softdropdiv2link'>
-                Free HubSpot CRM <CgArrowLongRight/>
+                Free HubSpot CRM <CgArrowLongRight className='icon_logo_1'/>
                 </Link>
                 </div>
             <div>
             <Link to="/"  className='softdropdiv2link'>
-                Overview of all products <CgArrowLongRight/>
+                Overview of all products <CgArrowLongRight className='icon_logo_1'/>
                 </Link>
                 </div>
         </div>

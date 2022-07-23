@@ -11,7 +11,7 @@ import {Link} from "react-router-dom"
 const HubSingle = ({logo,title,f1,f2,f3,path,discribe,featureName}) => {
   return (
     <div className='hubDetails_main_div'>
-      <div><SiMarketo className='hubDetails_icon'/> <span className='hubDetails_Title'>{title}</span></div>
+      <div className='hubDetails_main_title_logo'><SiMarketo className='hubDetails_icon'/> <span className='hubDetails_Title'>{title}</span></div>
       <p className='hubDetails_describe'>{discribe}</p>
      
        <hr/> 

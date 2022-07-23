@@ -26,7 +26,7 @@
 }
 .navbar_btn_div_main{
     width:200px;
-    height: 40%;
+    height: 47%;
     text-align: center;
     margin-left: 23%;
     border-radius: 4px;
@@ -44,7 +44,6 @@
     color: white;
     text-decoration: none;
 }
-/* .navbar_options_softwareDown{
-    position: relative;
-    display: inline-block;
-} */
+.navbar_options_softwareDown{
+    display: flex;
+}

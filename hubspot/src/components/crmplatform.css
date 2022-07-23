@@ -7,6 +7,9 @@
 }
 .crmplatform_main_div>h1{
     text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 30px;
   
 }
 .crmplatform_main_div>div>p{
@@ -19,7 +22,7 @@
 }
 .GetFreeCrm{
     width:21%;
-    height: 40px;
+    height: 30px;
     display: flex;
     margin: auto;
     margin-top: 15px;
@@ -29,7 +32,7 @@
 }
 .GetFree1{
     width:120px;
-    height: 15px;
+    height:100% ;
     padding-bottom: 10px;
     color: white;
     font-size: 13px;
@@ -42,7 +45,7 @@
 
 .GetFree2{
     width:150px;
-    height: 15px;
+    height:100% ;
     padding-bottom: 10px;
     color: #ff5c35;
     font-size: 13px;

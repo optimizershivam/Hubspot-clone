@@ -17,7 +17,7 @@ const ResourcesDrop = () => {
           <div className='resource_l'>
             <div className='iconsr'><HiUserGroup/></div>
             <div>
-              <h3>Education</h3>
+              <h2 style={{fontWeight:"bold",fontSize:"22px"}}>Education</h2>
               {education.map((e)=>(
                 <div className='resourcesSubName'>{e}</div>
               ))}
@@ -27,7 +27,7 @@ const ResourcesDrop = () => {
           <div className='resource_l'>
             <div className='iconsr'><RiMessageFill/></div>
             <div>
-              <h3>Why HubSpot ?</h3>
+              <h3 style={{fontWeight:"bold",fontSize:"22px"}} >Why HubSpot ?</h3>
               {WhyHubspot.map((e)=>(
                 <div className='resourcesSubName'>{e}</div>
               ))}
@@ -39,7 +39,7 @@ const ResourcesDrop = () => {
       <div className='resource_l'>
             <div className='iconsr'><MdDesignServices/></div>
             <div>
-              <h3>Service</h3>
+              <h3 style={{fontWeight:"bold",fontSize:"22px"}}>Service</h3>
               {Services.map((e)=>(
                 <div className='resourcesSubName'>{e}</div>
               ))}
@@ -49,7 +49,7 @@ const ResourcesDrop = () => {
           <div className='resource_l'>
             <div className='iconsr'><HiUserGroup/></div>
             <div>
-              <h3>User Resources</h3>
+              <h3 style={{fontWeight:"bold",fontSize:"22px"}}>User Resources</h3>
               {UserResources.map((e)=>(
                 <div className='resourcesSubName'>{e}</div>
               ))}

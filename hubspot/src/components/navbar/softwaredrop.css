@@ -11,6 +11,10 @@
     /* margin-top:115px ; */
     z-index: 1;
 }
+.icon_logo_1{
+    margin-top: 5px;
+    margin-left: 5px;
+}
 .softwareDrop_main-div.click{
    
     display: none;
@@ -55,6 +59,9 @@
 .softdropdiv2link{
     color: #00b0b0;
     text-decoration: none;
+    display: flex;
+    /* text-align: center; */
+    
 }
 .softdropdiv2link:hover{
     text-decoration: underline;
@@ -105,6 +112,7 @@
 .softwareHublink{
    color: #00bda5;
    font-weight: bold;
+   display: flex;
 }
 
 .softHubLinks{

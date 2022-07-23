@@ -19,7 +19,7 @@ const hubsDetailsInfo=[
       f3:"Analytics"
   },
   {
-    logo:<SiMarketo/>,
+    logo:<GiRoundStar/>,
     title:"Sales Hub",
     discribe:"Sales CRM software to help you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.",
     featureName:"Popular Features",
@@ -28,7 +28,7 @@ const hubsDetailsInfo=[
     f3:"Payments"
   },
   {
-      logo:<SiMarketo/>,
+      logo:<BsFillSuitHeartFill/>,
       title:"Service Hub",
       discribe:"Customer service software to help you connect with customers, exceed expectations, and turn",
       featureName:"Popular Features",
@@ -37,7 +37,7 @@ const hubsDetailsInfo=[
       f3:"Knowledge base"
   },
   {
-      logo:<SiMarketo/>,
+      logo:<FaBox/>,
       title:"CMS Hub",
       discribe:"Content management software that’s flexible for marketers, powerful for developers, ",
       featureName:"Popular Features",
@@ -46,7 +46,7 @@ const hubsDetailsInfo=[
       f3:"Website themes"
   },
   {
-      logo:<SiMarketo/>,
+      logo:<BsHexagonHalf/>,
       title:"Operations Hub",
       discribe:"Operations software that syncs your apps, cleans and curates customer data, and automates processes ",
       featureName:"Popular Features",
