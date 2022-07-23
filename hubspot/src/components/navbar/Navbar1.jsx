@@ -13,7 +13,7 @@ const Navbar1 = () => {
         <div>
         <MdOutlineLanguage className='navbar1_main_icons'/>
         </div>
-        <div className='navbar1_langauge'> English<MdOutlineKeyboardArrowDown/></div>
+        <div className='navbar1_langauge'> English<MdOutlineKeyboardArrowDown className='arrodown1'/></div>
       
         <div><RiAccountCircleFill className='navbar1_main_icons'/>
         </div>

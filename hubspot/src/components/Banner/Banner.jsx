@@ -26,7 +26,7 @@ const Banner = () => {
         <img
         src="https://www.hubspot.com/hubfs/SUI-Homepage-Header-Desktop@2x.png"
         width="100%"
-        height='100%'
+        height='100%' alt=''
         />
       </div>
     </div>
