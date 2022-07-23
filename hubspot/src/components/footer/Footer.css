@@ -8,7 +8,8 @@
     display: flex;
     /* border: 1px solid white; */
     width:80%;
-    margin-top: 20px;
+    
+    padding-top: 50px;
     margin: auto;
     cursor: pointer;
 }
@@ -26,7 +27,11 @@
 .feature{
     margin-right: 5%;
 }
-
+.feature>h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
 
 
 .footerlink:hover{
@@ -35,6 +40,7 @@
 }
 .Footer_hr_line{
     height: 325PX;
+   
     background-color: white;
     width:1PX;
     margin-top: 25px;

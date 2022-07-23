@@ -16,6 +16,12 @@
     border-bottom: none;
     border-right: none;
   }
+  #home-community-board__grid-icon-wrapper1,#home-community-board__grid-icon-wrapper5,#home-community-board__grid-icon-wrapper6,#home-community-board__grid-icon-wrapper8{
+    margin-left: 35%;
+  }
+  #home-community-board__grid-icon-wrapper2,#home-community-board__grid-icon-wrapper3,#home-community-board__grid-icon-wrapper4,#home-community-board__grid-icon-wrapper7{
+    margin-left: 30%;
+  }
   a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
     margin: 0;
     margin-top: 0px;
@@ -165,9 +171,16 @@
   }
   .home-community-board__grid-icon-wrapper {
     position: relative;
+  
     height: 40px;
+    
+    
     margin-bottom: 15px;
   }
+  /* .home-community-board__grid-icon-wrapper>img{
+    margin-left: 20%;
+  } */
+   
   .home-community-board__grid-stat.stat-plus-after {
     position: relative;
     padding-right: 10px;

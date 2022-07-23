@@ -8,6 +8,9 @@
     background-color: white;
     overflow: hidden;
 }
+.arrodown{
+    margin-top: 6px;
+}
 
 .navbar_options_div{
     display: flex;

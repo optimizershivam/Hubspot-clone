@@ -30,11 +30,11 @@ const Navbar = () => {
       </div>
       <div className='navbar_options_div'>
         <div onMouseOver={handlemouseHoverS} className="navbar_options_softwareDown">Software <MdKeyboardArrowDown className='arrodown' /></div>
-        <div>Pricing</div>
-        <div onMouseOver={handlemouseHoverR} className="navbar_options_softwareDown">Resources <MdKeyboardArrowDown/></div>
+        <div><Link to="/pricing">Pricing</Link></div>
+        <div onMouseOver={handlemouseHoverR} className="navbar_options_softwareDown">Resources <MdKeyboardArrowDown className='arrodown'/></div>
       </div>
       <div className='navbar_btn_div_main'>
-        <Link to="/" className='navbar_btn_link'>
+        <Link to="" className='navbar_btn_link'>
         Start free or get a demo
         </Link>
       
