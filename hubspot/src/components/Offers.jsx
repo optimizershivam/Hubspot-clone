@@ -2,6 +2,7 @@ import React from 'react'
 import "./offers.css"
 import { CheckIcon } from '@chakra-ui/icons'
 import {Button, NumberDecrementStepper, NumberIncrementStepper, NumberInput, NumberInputField, NumberInputStepper} from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 const Offers = () => {
   return (
     <>
@@ -28,9 +29,9 @@ const Offers = () => {
                 </div>
                 <p className='simpleTextDiv'>Includes 1,000 marketing contacts. Additional marketing contacts are sold in increments of 1,000 from $18.00/month. <span style={{color:' #0091ae'}}>More details.</span></p>
                 <div style={{marginTop:'15px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Buy Now</Button>
+                <Link to="/cart"> <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Buy Now</Button></Link>
                 <div style={{margin:'15px 0px 15px 0px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='outline'>Talk to sales</Button>
+               <Link to="/contactsales"><Button colorScheme='orange' height='40px' width='100%' variant='outline'>Talk to sales</Button></Link> 
                 
                 <div className='BigTextDiv'>
                 <p style={{color:'grey',margin:'15px 0px 10px 0px'}}><span className='colorText'>Free tools with increased limits</span>, plus:</p>
@@ -81,9 +82,9 @@ const Offers = () => {
                 </div>
                 <p className='simpleTextDiv'>Includes 2,000 marketing contacts. Additional marketing contacts are sold in increments of 5,000 from $250.00/month.<span style={{color:' #0091ae'}}> More details.</span></p>
                 <div style={{marginTop:'15px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Talk to sales</Button>
+                <Link to="/contactsales">   <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Talk to sales</Button> </Link>
                 <div style={{margin:'15px 0px 15px 0px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='outline'>Start a free 14-day trial</Button>
+                <Link to="/demopage">     <Button colorScheme='orange' height='40px' width='100%' variant='outline'>Start a free 14-day trial</Button> </Link>
                 <div className='BigTextDiv'>
                     <p style={{color:'grey',margin:'15px 0px 10px 0px'}}>Starter plus:</p>
                     
@@ -146,9 +147,9 @@ const Offers = () => {
                 </div>
                 <p className='simpleTextDiv'>Includes 10,000 marketing contacts. Additional marketing contacts are sold in increments of 10,000 from $100.00/month. <span style={{color:' #0091ae'}}>More details.</span></p>
                 <div style={{marginTop:'15px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Talk to sales</Button>
+                <Link to="/contactsales">       <Button colorScheme='orange' height='40px' width='100%' variant='solid'>Talk to sales</Button> </Link>
                 <div style={{margin:'15px 0px 15px 0px'}}></div>
-                <Button colorScheme='orange' height='40px' width='100%' variant='outline'>Start a free 14-day trial</Button>
+                <Link to="/demopage">    <Button colorScheme='orange' height='40px' width='100%' variant='outline'>Start a free 14-day trial</Button> </Link>
                 <div className='BigTextDiv'>
                     <p style={{color:'grey',margin:'15px 0px 10px 0px'}}>Proffesional plus:</p>
                     <div style={{marginBottom:'30px'}}>

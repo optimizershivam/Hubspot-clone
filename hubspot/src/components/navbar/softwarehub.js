@@ -9,7 +9,7 @@ export const softwareHub=[
         name:'Marketing Hub',
         img:<SiMarketo/>,
         discribe:"Marketing automation software",
-        path:"/",
+        path:"/toppage",
         plans:"Free and premium plans"
     },
     {

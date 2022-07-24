@@ -25,7 +25,7 @@ const HubSingle = ({logo,title,f1,f2,f3,path,discribe,featureName}) => {
         <div><RiCheckboxCircleFill className='hubDetails_checkbox'/><span className='hubDetails_feature'>{f3}</span></div>
        </div>
        <div className='hubDetails_btn'>
-        <Link to="/" className="hubDetails_link">Get started</Link>
+        <Link to="/toppage" className="hubDetails_link">Get started</Link>
        </div>
 
     </div>

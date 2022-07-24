@@ -1,5 +1,5 @@
 import React from 'react'
-import "./toppage.css"
+import "./Toppage.css"
 //import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 

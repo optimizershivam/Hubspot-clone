@@ -9,7 +9,7 @@ const StartGrow = () => {
         <h1>Start Growing With HubSpot Today</h1>
         <p>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</p>
         <div className='startGrow_btn'>
-            <Link to="/" className='startGrow_btn_link'>
+            <Link to="/demopage" className='startGrow_btn_link'>
             Start free or get demo
             </Link>
         </div>

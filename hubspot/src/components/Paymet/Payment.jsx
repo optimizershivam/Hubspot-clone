@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Button, Image, Input} from '@chakra-ui/react'
 import paymentSlider from './hubSpot.png'
 import './Payment.css'
 import { InfoIcon } from '@chakra-ui/icons'
+import { useNavigate } from 'react-router-dom'
 const Payment = () => {
+    const [isLoading,setIsloading] = useState(false)
+    const navigate = useNavigate()
   return (
     <>
         <p style={{margin:'auto',fontSize:'32px',fontWeight:'600',color:'#33475b',marginTop:'30px',marginBottom:'15px',marginLeft:'70px'}}>Checkout</p>
@@ -45,7 +48,17 @@ const Payment = () => {
                 <p style={{marginBottom:'8px'}}>Security code*</p>
                 <div style={{display:'flex',gap:'30px'}}><Input marginBottom='20px' backgroundColor=' #f5f8fa' htmlSize={4} width='auto'/><div style={{display:'flex',gap:'4px'}}><Image src='https://static.hsappstatic.net/ui-images/static-2.422/optimized/credit-card-back.svg' alt='securityImg' width='34px'/><p style={{lineHeight:'3'}}>3 digit on back of card</p></div></div>
                 </form>
-         <Button colorScheme='orange'>Save & continue</Button>
+         <Button colorScheme='orange'  onClick={()=>{
+                setIsloading(true)
+                setTimeout(() => {
+                    setIsloading(false)
+                   
+                      setTimeout(()=>{ navigate("/checkout",{replace:true})},1500)
+                     
+                },2500)
+                
+              }}
+              isLoading={isLoading}>Save & continue</Button>
             </div>
             <div className='paymentpage2div'>
                 <div className='SubscriptionDiv'>Subscription</div>

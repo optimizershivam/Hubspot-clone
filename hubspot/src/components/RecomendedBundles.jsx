@@ -2,6 +2,7 @@ import React from 'react'
 import './RecomededBundles.css'
 import {PhoneIcon} from '@chakra-ui/icons'
 import {Button,Divider,Image, Stack,Text} from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 const RecomendedBundles = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const RecomendedBundles = () => {
                 <p style={{fontSize:'12px',color: '#516f90!important',fontWeight:'400',margin:'0px 0px 10px 0px'}}>Starts at</p>
                 <p>$45/mo</p>
                 <p style={{fontSize:'12px',color: '#516f90!important',fontWeight:'400',margin:'0px 0px 10px 0px'}}>builled at <span style={{textDecoration:'line-through'}}>$600</span><span style={{color:'#0091ae'}}> $540/yr</span></p>
-                <Button colorScheme='orange' height='50px' width='440px'>Buy Now</Button>
+       <Link to="/cart">        <Button colorScheme='orange' height='50px' width='440px'>Buy Now</Button></Link> 
                 <p style={{margin:'10px 0px 10px 0px',color:'#0091ae',fontWeight:'600'}}>See all Features</p>
                 </div>
                 <div >
